@@ -83,6 +83,11 @@
             </ul>
         </div>
         <div class="slide">
+            <h1>Productivity Per Hour Worked</h1>
+            <img src=labor-productivity-per-hour-pennworldtable.png alt="OWID productivity chart" id="labor-productivity-img">
+            <p>Besides tech innovation, there is evidence that working fewer hours can keep productivity higher, making the link between working hours and productivity self-reinforcing. For example, economist John Pencavel (2015) studied munitions workers in wartime Britain and found that their productivity stayed high up to a certain threshold of hours, but declined markedly above that threshold. (<a href="https://ourworldindata.org/rich-poor-working-hours" target="_blank">Source</a>)</p>
+        </div>
+        <div class="slide">
             <h1>The Wheel of Life</h1>
             <p>Where do you score yourself on each of these areas?</p>
             <img src=wheel_of_life.jpg alt="Wheel of Life Diagram" id="wheel-of-life-img">
@@ -182,13 +187,19 @@
                         seesawImg.style.display = 'block';
                         seesawImg.style.margin = '0 auto';
                     }
-                    
                     const deepWorkImg = document.getElementById('deep-work-img');
                     if (deepWorkImg) {
                         deepWorkImg.style.maxWidth = '20%';
                         deepWorkImg.style.height = 'auto';
                         deepWorkImg.style.display = 'block';
                         deepWorkImg.style.margin = '0 auto';
+                    }
+                    const laborproductivityImg = document.getElementById('labor-productivity-img');
+                    if (deepWorkImg) {
+                        laborproductivityImg.style.maxWidth = '60%';
+                        laborproductivityImg.style.height = 'auto';
+                        laborproductivityImg.style.display = 'block';
+                        laborproductivityImg.style.margin = '0 auto';
                     }
                     const wheelImg = document.getElementById('wheel-of-life-img');
                     if (wheelImg) {
